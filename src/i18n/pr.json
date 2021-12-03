@@ -1,0 +1,10 @@
+{
+  "HOME": {
+    "BUTTON": "GET STARTED"
+  },
+  "NAVBAR": {
+    "HOME": "HOME",
+    "SEARCH": "SEARCH",
+    "ARTICLES": "tales"
+  }
+}

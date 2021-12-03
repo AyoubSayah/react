@@ -1,38 +1,162 @@
-.App {
-  text-align: center;
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+* {
+  margin: 0;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+html,
+body {
+  height: 100%;
+  overflow-y: hidden;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+body {
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+  position: relative;
+}
+img,
+picture,
+video,
+canvas,
+svg {
+  display: block;
+  max-width: 100%;
+}
+input,
+button,
+textarea,
+select {
+  font: inherit;
+}
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  overflow-wrap: break-word;
+}
+#root,
+#__next {
+  isolation: isolate;
+}
+.flag {
+  width: 1.5rem;
+  height: 1rem;
+}
+.boat {
+  position: absolute;
+  top: 23%;
+  right: 3%;
+}
+.header {
+  height: 100vh;
+  position: relative;
+}
+.Ellipse {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+.Rectangle {
+  position: absolute;
+  bottom: 0;
+}
+.flex {
   display: flex;
-  flex-direction: column;
+}
+.align-center {
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+.justify-center {
+  justify-items: center;
+}
+.mejdaf {
+  position: absolute;
+  top: 0;
+  right: 0;
+  z-index: 9;
+}
+.z-index {
+  z-index: 99;
+}
+.logo {
+  margin: 2rem;
+  margin-right: 6rem;
+  width: 5rem;
+  height: 5rem;
+}
+.navbar {
+  justify-content: space-between;
+  list-style: none;
+  z-index: 99999;
+  position: relative;
   color: white;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-size: 1.1rem;
 }
-
-.App-link {
-  color: #61dafb;
+.sous-liste {
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.sous-liste p {
+  margin: 0 2rem;
+  cursor: pointer;
+}
+.MuiButton-contained {
+  border-radius: 4rem !important;
+  background: linear-gradient(
+    180deg,
+    #0ed1fc 0%,
+    rgba(0, 71, 255, 0) 100%
+  ) !important;
+  position: absolute !important;
+  width: 13rem;
+  height: 4rem;
+  left: 5%;
+  top: 63%;
+  font-weight: 600 !important;
+}
+.man {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+.search-input {
+  margin-top: 5rem;
+  width: 100vw;
+  display: grid;
+}
+.avatar {
+  width: 5rem;
+  height: 5rem;
+  margin-right: 0.5rem;
+}
+.cardperso {
+  width: 20rem;
+  padding: 2rem;
+  font-weight: 500;
+  margin: 2rem;
+  text-transform: capitalize;
+  align-items: center;
+  cursor: pointer;
+}
+.wrap {
+  flex-wrap: wrap;
+}
+.cardperso:hover {
+  border: 2px solid #0ed1fc;
+}
+.mt-3 {
+  margin-top: 3rem;
+}
+.w-100 {
+  width: 100vw;
+  justify-content: center;
+}
+.MuiFormControl-root {
+  margin: 1rem !important;
 }

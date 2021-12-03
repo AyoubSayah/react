@@ -1,0 +1,10 @@
+{
+  "HOME": {
+    "BUTTON": "COMMENCER"
+  },
+  "NAVBAR": {
+    "HOME": "ACCEUIL",
+    "SEARCH": "CHERCHER",
+    "ARTICLES": "ARTICLES"
+  }
+}
